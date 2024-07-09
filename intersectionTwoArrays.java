@@ -1,6 +1,6 @@
 /*
  * TIme complexity - O(mxn)
- * Space complexity - O(1) constant
+ * Space complexity - O(min(m,n))
  */
 
 class Solution {
