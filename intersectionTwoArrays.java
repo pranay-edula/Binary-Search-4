@@ -14,7 +14,7 @@ class Solution {
         List<Integer> result = new ArrayList<>();
 
         for(int i = 0; i< n; i++){
-            map.put(nums2[i], map.getOrDefault(nums2[i], 0)+1);
+            map.put(nums2[i], map.getOrDefault(nums2[i], 0)+1); // add the value from 2nd array and update frequency/occurences
         }
         for(int i = 0; i < m; i++){
             if(map.containsKey(nums1[i])){
